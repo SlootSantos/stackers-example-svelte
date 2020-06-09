@@ -1,0 +1,11 @@
+{
+  "node_version": "12.13.1",
+  "output_dir": "public/",
+  "post_install": "ls",
+  "build": "npm run build",
+  "branches": {
+    "prod_env": "master:tag",
+    "stage_env": "master",
+    "dev_env": "develop"
+  }
+}
